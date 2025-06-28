@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Brand = require('C:\Users\HP\OneDrive\Desktop\skyline\Backend\models\Brand');
+const Brand = require('../models/Brand');
 
 // Register brand
 router.post('/register', async (req, res) => {
