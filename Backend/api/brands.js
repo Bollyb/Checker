@@ -1,5 +1,5 @@
 import dbConnect from '../lib/db';
-import Brand from 'C:\Users\HP\OneDrive\Desktop\skyline\Backend\models\Brand';
+import Brand from '../models/Brand';
 
 export default async function handler(req, res) {
   await dbConnect();
