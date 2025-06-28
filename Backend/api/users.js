@@ -1,5 +1,5 @@
 import dbConnect from '../lib/db';
-import User from 'C:\Users\HP\OneDrive\Desktop\skyline\Backend\models\User';
+import User from '../models/User';
 
 export default async function handler(req, res) {
   await dbConnect();
