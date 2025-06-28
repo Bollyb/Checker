@@ -1,0 +1,10 @@
+{
+  "name": "loyalty-program",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "web3": "^4.1.2"
+  }
+}
